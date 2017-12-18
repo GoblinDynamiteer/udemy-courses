@@ -1,0 +1,51 @@
+html {
+    font-family: serif, sans-serif, "Times New Roman";
+}
+
+body {
+    background-color: #444;
+    text-align: center;
+}
+
+.borderImg {
+    border: 12px solid black;
+}
+
+/* Selects all li emelents inside ul elemets */
+ul li {
+    color: white;
+    font-size: 20px;
+}
+
+/* Selects all li emelents whose parents is a ul */
+ul > li {
+    color: lightblue;
+}
+
+/* Grouped */
+h1, h2, h3, .number_list {
+    color: white;
+    line-height: 2rem;
+    font-style: italic;
+    text-transform: uppercase
+}
+
+h2 {
+    font-size: 28px;
+    font-style: normal;
+}
+
+/* Link text decoration, overrides default */
+a {
+    text-decoration: none;
+    font-size: 25px;
+    color: yellow;
+    letter-spacing: 10px;
+    text-transform: capitalize;
+}
+
+.formatting {
+    font-size: 25px;
+    line-height: 2em;
+    color: gray;
+}
