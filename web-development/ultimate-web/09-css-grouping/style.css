@@ -1,0 +1,37 @@
+/* Image as background */
+body {
+    background: black;
+    background-image: url(electronics.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.borderImg {
+    border: 12px solid black;
+}
+
+/* Color styling with color name */
+.container {
+    background: darkslateblue;
+
+}
+
+/* Selects all li emelents inside ul elemets */
+ul li {
+    color: white;
+    font-size: 20px;
+}
+
+/* Selects all li emelents whose parents is a ul */
+ul > li {
+    color: lightblue;
+}
+
+/* Grouped */
+h1, h2, h3, .number_list {
+    color: white;
+    text-shadow: 2px 2px 5px #000000;
+    line-height: 2rem;
+    font-family: sans-serif;
+     
+}
