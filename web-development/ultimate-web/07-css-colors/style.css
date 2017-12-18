@@ -1,3 +1,14 @@
+/* Image as background */
+body {
+    background: black;
+    background-image: url(electronics.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.borderImg {
+    border: 12px solid black;
+}
 
 /* Color styling with color name */
 .container {
