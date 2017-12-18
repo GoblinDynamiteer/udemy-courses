@@ -1,0 +1,25 @@
+/* Style body tag */
+body {
+    background-color: #0089b7;
+}
+
+/* Style header tag */
+h1 {
+    color: white;
+    text-align: center;
+}
+
+/* Style custom class */
+.my_class {
+    width: 100px;
+    height: 100px;
+    background-color: whitesmoke;
+    margin: auto;
+}
+
+/* style custom id */
+#my_id {
+    color: skyblue;
+    font-size: 30px;
+    text-align: center;
+}
