@@ -1,0 +1,54 @@
+body {
+    background-color: #444;
+    text-align: center;
+}
+
+.borderImg {
+    border: 12px solid black;
+}
+
+/* Selects all li emelents inside ul elemets */
+ul li {
+    color: white;
+    font-size: 20px;
+}
+
+/* Selects all li emelents whose parents is a ul */
+ul > li {
+    color: lightblue;
+}
+
+
+/* Add Google fonts to header1, 2 and 3. Use serifs as fallback */
+h1 {
+    color: white;
+    line-height: 2rem;
+    font-family: Bungee, serif, sans-serif;
+}
+
+h2 {
+    color: white;
+    line-height: 2rem;
+    font-family: "Indie Flower", serif, sans-serif;
+}
+
+h3 {
+    color: white;
+    line-height: 2rem;
+    font-family: Oswald, serif, sans-serif;
+}
+
+/* Link text decoration, overrides default */
+a {
+    text-decoration: none;
+    font-size: 25px;
+    color: yellow;
+    letter-spacing: 10px;
+    text-transform: capitalize;
+}
+
+.formatting {
+    font-size: 25px;
+    line-height: 2em;
+    color: gray;
+}
