@@ -1,0 +1,52 @@
+/* Image as background */
+body {
+    background: black;
+    background-image: url(electronics.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.borderImg {
+    border: 12px solid black;
+}
+
+/* Color styling with color name */
+.container {
+    background: darkslateblue;
+
+}
+
+/* Selects all li emelents inside ul elemets */
+ul li {
+    color: white;
+    font-size: 20px;
+}
+
+/* Selects all li emelents whose parents is a ul */
+ul > li {
+    color: lightblue;
+}
+
+/* Will overwrite the grouped h2 below, takes precedence */
+div h2 {
+    color: lightseagreen;
+}
+
+/* Grouped */
+h1, h2, h3, .number_list {
+    color: white;
+    text-shadow: 2px 2px 5px #000000;
+    line-height: 2rem;
+    font-family: sans-serif;
+     
+}
+
+/* !important overrides all other */
+h3 {
+   color: red !important; 
+}
+
+/* Will overwrite the grouped h1 above, it comes after in the code */
+h1 {
+    color: lightpink;
+}
