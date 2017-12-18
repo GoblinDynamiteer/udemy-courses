@@ -1,0 +1,22 @@
+
+/* Color styling with color name */
+.container {
+    background: darkslateblue;
+    background: linear-gradient(red, yellow);
+    background: linear-gradient(to right, darkslateblue, red);
+    box-shadow: 2px 2px 1px black;
+}
+
+/* Color styling with hex value */
+h1 {
+    color: #ededfc;
+    
+    /* Text shadow, distance x / y, blur, color */
+    text-shadow: 2px 2px 5px #000000;
+}
+
+/* Color styling with rgb value */
+h2 {
+    color: rgb(82, 204, 232); 
+    text-shadow: 1px 1px 3px rgb(0, 12, 232);
+}
