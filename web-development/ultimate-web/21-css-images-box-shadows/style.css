@@ -97,6 +97,16 @@ ul.topnav li.dropdownIcon {
     background: linear-gradient(purple, pink);
 }
 
+div.box {
+    background-color: #fff;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .15),
+        0 2px 3px 0 rgba(0, 0, 0, .1);
+}
+
+div.icon {
+    width: 100%
+}
+
 div.leftSide-col {
     margin-left:30%;
 }
@@ -111,6 +121,11 @@ h1.largeHeader {
     font-family: 'Arvo', serif;
     margin: 0;
     line-height: 70px;
+}
+
+h1.section2Header {
+    font-size: 62px;
+    text-align: center;
 }
 
 input[type="text"] {
