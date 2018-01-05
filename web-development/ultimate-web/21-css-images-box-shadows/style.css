@@ -10,6 +10,18 @@ body {
     margin: 0;
 }
 
+label {
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Arvo', serif;
+}
+
+p {
+    font-size: 28px;
+    line-height: 1.2;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
 .container {
     width: 100%;
     margin: auto;
@@ -42,6 +54,10 @@ body {
 .col-10 { width: calc(100% / 12 * 10);}
 .col-11 { width: calc(100% / 12 * 11);}
 .col-12 { width: calc(100% / 12 * 12);}
+
+* {
+    box-sizing: border-box;
+}
 
 
 /* ###### Nav bar ###### */
@@ -98,9 +114,30 @@ ul.topnav li.dropdownIcon {
 }
 
 div.box {
+    text-align: center;
+    margin: 24px;
+    padding: 36px 24px 40px 24px;
     background-color: #fff;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, .15),
         0 2px 3px 0 rgba(0, 0, 0, .1);
+    border-radius: 80px;
+}
+
+button {
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #ebadd6;
+    padding: 15px 60px;
+    display: block;
+    text-align: center;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+button.learnMore {
+    display: block;
+    margin: auto;
 }
 
 div.icon {
@@ -126,6 +163,7 @@ h1.largeHeader {
 h1.section2Header {
     font-size: 62px;
     text-align: center;
+    font-family: 'Arvo', serif;
 }
 
 input[type="text"] {
@@ -179,9 +217,21 @@ form h2 {
         text-align: left;
     }
     
-    .col-6 { 
+    h1.section2Header {
+    font-size: 50px;
+    }
+    
+    
+    /* One column per row in mobile mode */
+    .col-6,
+    .col-4{ 
         width: 100%;
         margin: 0px;
+    }
+    
+    div.box {
+        padding: 5px;
+        display: block;
     }
     
     div.leftSide-col,
